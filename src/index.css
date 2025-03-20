@@ -1,0 +1,119 @@
+.body {
+    font-family: "Open Sans", sans-serif;
+   
+    
+    
+  }
+  
+  ::-webkit-scrollbar{
+    width:5px
+  }
+  ::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    background-color: rgb(86, 86, 86);
+  }
+
+  .profile-edit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .profile-edit-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .profile-edit-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .image-upload-container {
+    margin-bottom: 20px;
+  }
+  
+  .image-upload-container p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .camera-icon-button {
+    background-color: #3182ce;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+  .camera-icon-button:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .profile-image {
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .input-container input,
+  .input-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .input-container textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .save-button {
+    background-color: #3182ce;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .save-button:disabled {
+    background-color: #b0d0ff;
+    cursor: not-allowed;
+  }
+  
