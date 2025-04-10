@@ -10,12 +10,12 @@ import useAuthStatus from "./hooks/useAuthStatus"
 import { useEffect } from "react"
 import { supabase } from "./utils/supabase"
 import WelcomePage from "./pages/Auth/WelcomePage"
-import CompleteSignUp from "./comps/AuthForm/CompleteSignup"
 import CheckProfile from "./comps/AuthForm/CheckProfile"
 import ProfileEditPage from "./pages/ProfilePage/ProfileEditPage"
 import CreatePost from "./comps/FeedPosts/CreatePost"
 import NotificationsPage from "./comps/notfication/NotificationsPage"
 import SearchPage from "./comps/search/SearchPage"
+import CompleteSignUp from "./comps/AuthForm/CompleteSignUp"
 
 
 function App() {

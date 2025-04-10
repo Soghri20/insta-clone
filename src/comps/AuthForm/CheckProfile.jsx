@@ -14,7 +14,7 @@ const CheckProfile = ({ children }) => {
       const { data: { user } } = await supabase.auth.getUser();
 
       if (!user) {
-        navigate('/login');  // Redirect to login if no user is found
+        navigate('/welcome');  // Redirect to login if no user is found
         return;
       }
 
