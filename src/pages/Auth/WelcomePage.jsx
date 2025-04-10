@@ -12,7 +12,7 @@ const WelcomePage = () => {
  
          const { user, session, error } = await supabase.auth.signInWithOAuth({
            provider: 'google',
-           redirectTo:"http://localhost:5173/complete-signin"
+           redirectTo:"https://insta-clone-zeta-ashy.vercel.app/complete-signin"
           
          });
        

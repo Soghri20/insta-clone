@@ -1,6 +1,5 @@
 import AuthForm from '../../comps/AuthForm/AuthForm'
 import { Box, Container, Flex, Image, VStack } from '@chakra-ui/react'
-import { base } from 'framer-motion/client'
 import React from 'react'
 
 const AuthPage = () => {
